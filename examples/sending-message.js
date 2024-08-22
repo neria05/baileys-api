@@ -1,5 +1,5 @@
 const BASE_URI = 'http://localhost:8000/'
-const SESSION_ID = 'john'
+const SESSION_ID = 'NER'
 
 const sendMessage = async (endpoint, data) => {
     // Here we are using fetch API to send the request
@@ -17,7 +17,7 @@ const sendMessage = async (endpoint, data) => {
 ;(async () => {
     // Send Text Message to Someone
     await sendMessage('chats/send', {
-        receiver: '628231xxxxx',
+        receiver: '972544xxxxx',
         message: {
             text: 'Hello there!',
         },
@@ -26,13 +26,13 @@ const sendMessage = async (endpoint, data) => {
     // Send Bulk Text Message to Multiple Person
     await sendMessage('chats/send-bulk', [
         {
-            receiver: '628231xxxxx',
+            receiver: '972544xxxxx',
             message: {
                 text: 'Hello! How are you?',
             },
         },
         {
-            receiver: '628951xxxxx',
+            receiver: '972551xxxxx',
             message: {
                 text: "I'm fine, thank you.",
             },

@@ -2359,7 +2359,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"react\": {\r\n            \"text\": \"💖\",\r\n            \"key\": {\r\n                \"remoteJid\": \"120363027219XXXX@g.us\",\r\n                \"fromMe\": false,\r\n                \"id\": \"6F4132748XXXXXX\",\r\n                \"participant\": \"628231xxxxx@s.whatsapp.net\"\r\n            }\r\n        }\r\n    }\r\n}",
+									"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"react\": {\r\n            \"text\": \"💖\",\r\n            \"key\": {\r\n                \"remoteJid\": \"120363027219XXXX@g.us\",\r\n                \"fromMe\": false,\r\n                \"id\": \"6F4132748XXXXXX\",\r\n                \"participant\": \"972544xxxxx@s.whatsapp.net\"\r\n            }\r\n        }\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -2393,7 +2393,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"react\": {\r\n            \"text\": \"💖\",\r\n            \"key\": {\r\n                \"remoteJid\": \"120363027219XXXX@g.us\",\r\n                \"fromMe\": false,\r\n                \"id\": \"6F4132748XXXXXX\",\r\n                \"participant\": \"628231xxxxx@s.whatsapp.net\"\r\n            }\r\n        }\r\n    }\r\n}",
+											"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"react\": {\r\n            \"text\": \"💖\",\r\n            \"key\": {\r\n                \"remoteJid\": \"120363027219XXXX@g.us\",\r\n                \"fromMe\": false,\r\n                \"id\": \"6F4132748XXXXXX\",\r\n                \"participant\": \"972544xxxxx@s.whatsapp.net\"\r\n            }\r\n        }\r\n    }\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -2468,7 +2468,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"react\": {\r\n            \"text\": \"💖\",\r\n            \"key\": {\r\n                \"remoteJid\": \"120363027219XXXX@g.us\",\r\n                \"fromMe\": false,\r\n                \"id\": \"6F4132748XXXXXX\",\r\n                \"participant\": \"628231xxxxx@s.whatsapp.net\"\r\n            }\r\n        }\r\n    }\r\n}",
+											"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"react\": {\r\n            \"text\": \"💖\",\r\n            \"key\": {\r\n                \"remoteJid\": \"120363027219XXXX@g.us\",\r\n                \"fromMe\": false,\r\n                \"id\": \"6F4132748XXXXXX\",\r\n                \"participant\": \"972544xxxxx@s.whatsapp.net\"\r\n            }\r\n        }\r\n    }\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -2545,7 +2545,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"react\": {\r\n            \"text\": \"💖\",\r\n            \"key\": {\r\n                \"remoteJid\": \"120363027219XXXX@g.us\",\r\n                \"fromMe\": false,\r\n                \"id\": \"6F4132748XXXXXX\",\r\n                \"participant\": \"628231xxxxx@s.whatsapp.net\"\r\n            }\r\n        }\r\n    }\r\n}",
+									"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"react\": {\r\n            \"text\": \"💖\",\r\n            \"key\": {\r\n                \"remoteJid\": \"120363027219XXXX@g.us\",\r\n                \"fromMe\": false,\r\n                \"id\": \"6F4132748XXXXXX\",\r\n                \"participant\": \"972544xxxxx@s.whatsapp.net\"\r\n            }\r\n        }\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -2579,7 +2579,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"react\": {\r\n            \"text\": \"💖\",\r\n            \"key\": {\r\n                \"remoteJid\": \"120363027219XXXX@g.us\",\r\n                \"fromMe\": false,\r\n                \"id\": \"6F4132748XXXXXX\",\r\n                \"participant\": \"628231xxxxx@s.whatsapp.net\"\r\n            }\r\n        }\r\n    }\r\n}",
+											"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"react\": {\r\n            \"text\": \"💖\",\r\n            \"key\": {\r\n                \"remoteJid\": \"120363027219XXXX@g.us\",\r\n                \"fromMe\": false,\r\n                \"id\": \"6F4132748XXXXXX\",\r\n                \"participant\": \"972544xxxxx@s.whatsapp.net\"\r\n            }\r\n        }\r\n    }\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -2654,7 +2654,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"react\": {\r\n            \"text\": \"💖\",\r\n            \"key\": {\r\n                \"remoteJid\": \"120363027219XXXX@g.us\",\r\n                \"fromMe\": false,\r\n                \"id\": \"6F4132748XXXXXX\",\r\n                \"participant\": \"628231xxxxx@s.whatsapp.net\"\r\n            }\r\n        }\r\n    }\r\n}",
+											"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"react\": {\r\n            \"text\": \"💖\",\r\n            \"key\": {\r\n                \"remoteJid\": \"120363027219XXXX@g.us\",\r\n                \"fromMe\": false,\r\n                \"id\": \"6F4132748XXXXXX\",\r\n                \"participant\": \"972544xxxxx@s.whatsapp.net\"\r\n            }\r\n        }\r\n    }\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -4346,7 +4346,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"receiver\": \"628231xxxxx\", \r\n    \"message\": {\r\n        \"text\": \"hello there!\"\r\n    }\r\n}",
+									"raw": "{\r\n    \"receiver\": \"972544xxxxx\", \r\n    \"message\": {\r\n        \"text\": \"hello there!\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -4421,7 +4421,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"receiver\": \"628231xxxxx\", \r\n    \"message\": {\r\n        \"text\": \"hello there!\"\r\n    }\r\n}",
+									"raw": "{\r\n    \"receiver\": \"972544xxxxx\", \r\n    \"message\": {\r\n        \"text\": \"hello there!\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -4684,7 +4684,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"remoteJid\": \"628231xxxxx@s.whatsapp.net\",\r\n        \"fromMe\": true,\r\n        \"id\": \"9A8xxxxxAC0FE60B59F6xxxxxxxxxxx\"\r\n    }\r\n}",
+							"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"remoteJid\": \"972544xxxxx@s.whatsapp.net\",\r\n        \"fromMe\": true,\r\n        \"id\": \"9A8xxxxxAC0FE60B59F6xxxxxxxxxxx\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -4870,7 +4870,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"remoteJid\": \"628231xxxxx@s.whatsapp.net\",\r\n        \"fromMe\": true,\r\n        \"id\": \"9A8xxxxxAC0FE60B59F6xxxxxxxxxxx\"\r\n    }\r\n}",
+							"raw": "{\r\n    \"receiver\": \"{{receiver}}\",\r\n    \"isGroup\": {{isGroup}},\r\n    \"message\": {\r\n        \"remoteJid\": \"972544xxxxx@s.whatsapp.net\",\r\n        \"fromMe\": true,\r\n        \"id\": \"9A8xxxxxAC0FE60B59F6xxxxxxxxxxx\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5276,7 +5276,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"receiver\": \"628231xxxxx\", \r\n    \"message\": {\r\n        \"text\": \"hello there!\"\r\n    }\r\n}",
+									"raw": "{\r\n    \"receiver\": \"972544xxxxx\", \r\n    \"message\": {\r\n        \"text\": \"hello there!\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5351,7 +5351,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"receiver\": \"628231xxxxx\", \r\n    \"message\": {\r\n        \"text\": \"hello there!\"\r\n    }\r\n}",
+									"raw": "{\r\n    \"receiver\": \"972544xxxxx\", \r\n    \"message\": {\r\n        \"text\": \"hello there!\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5452,7 +5452,7 @@
 								}
 							]
 						},
-						"description": "Send message to multiple person.\n\nYou can also set custom `delay` between each message by adding the delay (in milliseconds) to the `delay` properties. Default value is `1000` if you don't provide any delay or you provide an invalid delay.\n\nExample:\n\n``` javascript\n[\n  {\n    \"receiver\": \"628231xxxxx\",\n    // 1000ms / 1 seconds delay before it try to send the message since we don't provide any delay\n    \"message\": {\n      \"text\": \"hi! how are you?\"\n    }\n  },\n  {\n    \"receiver\": \"628950xxxxx\",\n    \"delay\": 60000, // 1 minutes delay before it try to send the message\n    \"message\": {\n      \"text\": \"i'm fine, thank you!\"\n    }\n  }\n]\n\n```"
+						"description": "Send message to multiple person.\n\nYou can also set custom `delay` between each message by adding the delay (in milliseconds) to the `delay` properties. Default value is `1000` if you don't provide any delay or you provide an invalid delay.\n\nExample:\n\n``` javascript\n[\n  {\n    \"receiver\": \"972544xxxxx\",\n    // 1000ms / 1 seconds delay before it try to send the message since we don't provide any delay\n    \"message\": {\n      \"text\": \"hi! how are you?\"\n    }\n  },\n  {\n    \"receiver\": \"628950xxxxx\",\n    \"delay\": 60000, // 1 minutes delay before it try to send the message\n    \"message\": {\n      \"text\": \"i'm fine, thank you!\"\n    }\n  }\n]\n\n```"
 					},
 					"response": [
 						{
@@ -5469,7 +5469,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "[\r\n    {\r\n        \"receiver\": \"628231xxxxx\", \r\n        \"message\": {\r\n            \"text\": \"hi! how are you?\"\r\n        }\r\n    },\r\n    {\r\n        \"receiver\": \"628950xxxxx\",\r\n        \"delay\": 60000, \r\n        \"message\": {\r\n            \"text\": \"i'm fine, thank you!\"\r\n        }\r\n    }\r\n]",
+									"raw": "[\r\n    {\r\n        \"receiver\": \"972544xxxxx\", \r\n        \"message\": {\r\n            \"text\": \"hi! how are you?\"\r\n        }\r\n    },\r\n    {\r\n        \"receiver\": \"628950xxxxx\",\r\n        \"delay\": 60000, \r\n        \"message\": {\r\n            \"text\": \"i'm fine, thank you!\"\r\n        }\r\n    }\r\n]",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5543,7 +5543,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "[\r\n    {\r\n        \"message\": {\r\n            \"text\": \"Whoops, some parameters is missing!\"\r\n        }\r\n    },\r\n    {\r\n        \"receiver\": \"628231xxxxx\", \r\n        \"message\": {\r\n            \"text\": \"yay, i'm sent!\"\r\n        }\r\n    },\r\n    {\r\n        \"receiver\": \"6281234567890\",\r\n        \"message\": {\r\n            \"text\": \"Looks like your phone number is not exists.\"\r\n        }\r\n    }\r\n]",
+									"raw": "[\r\n    {\r\n        \"message\": {\r\n            \"text\": \"Whoops, some parameters is missing!\"\r\n        }\r\n    },\r\n    {\r\n        \"receiver\": \"972544xxxxx\", \r\n        \"message\": {\r\n            \"text\": \"yay, i'm sent!\"\r\n        }\r\n    },\r\n    {\r\n        \"receiver\": \"6281234567890\",\r\n        \"message\": {\r\n            \"text\": \"Looks like your phone number is not exists.\"\r\n        }\r\n    }\r\n]",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5617,7 +5617,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "[\r\n    {\r\n        \"message\": {\r\n            \"text\": \"Whoops, some parameters is missing!\"\r\n        }\r\n    },\r\n    {\r\n        \"receiver\": \"628231xxxxx\"\r\n    },\r\n    {\r\n        \"receiver\": \"6281234567890\",\r\n        \"message\": {\r\n            \"text\": \"Looks like your phone number is not exists.\"\r\n        }\r\n    }\r\n]",
+									"raw": "[\r\n    {\r\n        \"message\": {\r\n            \"text\": \"Whoops, some parameters is missing!\"\r\n        }\r\n    },\r\n    {\r\n        \"receiver\": \"972544xxxxx\"\r\n    },\r\n    {\r\n        \"receiver\": \"6281234567890\",\r\n        \"message\": {\r\n            \"text\": \"Looks like your phone number is not exists.\"\r\n        }\r\n    }\r\n]",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5891,7 +5891,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n    \"success\": true,\n    \"message\": \"\",\n    \"data\": [\n        {\n            \"key\": {\n                \"remoteJid\": \"628950xxxxx-16310xxxxx@g.us\",\n                \"fromMe\": true,\n                \"id\": \"REDACTED\"\n            },\n            \"message\": {\n                \"conversation\": \"Hi guys, how are you?\"\n            },\n            \"messageTimestamp\": \"1644713060\",\n            \"status\": \"READ\",\n            \"userReceipt\": [\n                {\n                    \"userJid\": \"628950xxxxx@s.whatsapp.net\",\n                    \"receiptTimestamp\": \"1644713064000\",\n                    \"readTimestamp\": \"1644713075000\",\n                    \"playedTimestamp\": \"0\"\n                },\n                {\n                    \"userJid\": \"628231xxxxx@s.whatsapp.net\",\n                    \"receiptTimestamp\": \"1644713064000\",\n                    \"readTimestamp\": \"1644713071000\",\n                    \"playedTimestamp\": \"0\"\n                }\n            ]\n        },\n        ...\n    ]\n}"
+							"body": "{\n    \"success\": true,\n    \"message\": \"\",\n    \"data\": [\n        {\n            \"key\": {\n                \"remoteJid\": \"628950xxxxx-16310xxxxx@g.us\",\n                \"fromMe\": true,\n                \"id\": \"REDACTED\"\n            },\n            \"message\": {\n                \"conversation\": \"Hi guys, how are you?\"\n            },\n            \"messageTimestamp\": \"1644713060\",\n            \"status\": \"READ\",\n            \"userReceipt\": [\n                {\n                    \"userJid\": \"628950xxxxx@s.whatsapp.net\",\n                    \"receiptTimestamp\": \"1644713064000\",\n                    \"readTimestamp\": \"1644713075000\",\n                    \"playedTimestamp\": \"0\"\n                },\n                {\n                    \"userJid\": \"972544xxxxx@s.whatsapp.net\",\n                    \"receiptTimestamp\": \"1644713064000\",\n                    \"readTimestamp\": \"1644713071000\",\n                    \"playedTimestamp\": \"0\"\n                }\n            ]\n        },\n        ...\n    ]\n}"
 						},
 						{
 							"name": "Response Failed",
@@ -6086,7 +6086,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"groupName\": \"My Firt Group\", \r\n    \"participants\": [\r\n        \"628231xxxxx\",\r\n        \"628252xxxxx\"\r\n    ]\r\n\r\n}",
+							"raw": "{\r\n    \"groupName\": \"My Firt Group\", \r\n    \"participants\": [\r\n        \"972544xxxxx\",\r\n        \"628252xxxxx\"\r\n    ]\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -6126,7 +6126,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"groupName\": \"My Firt Group\", \r\n    \"participants\": [\r\n        \"628231xxxxx\",\r\n        \"628252xxxxx\"\r\n    ]\r\n\r\n}",
+									"raw": "{\r\n    \"groupName\": \"My Firt Group\", \r\n    \"participants\": [\r\n        \"972544xxxxx\",\r\n        \"628252xxxxx\"\r\n    ]\r\n\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6185,7 +6185,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n    \"success\": true,\n    \"message\": \"The group has been successfully created.\",\n    \"data\": {\n        \"id\": \"12036302xxxxxxxx@g.us\",\n        \"subject\": \"My Firt Group\",\n        \"subjectOwner\": \"628231xxxxx@s.whatsapp.net\",\n        \"subjectTime\": 1667962920,\n        \"size\": null,\n        \"creation\": 1667962920,\n        \"owner\": \"628231xxxxx@s.whatsapp.net\",\n        \"restrict\": false,\n        \"announce\": false,\n        \"participants\": [\n            {\n                \"id\": \"628231xxxxx@s.whatsapp.net\",\n                \"admin\": \"superadmin\"\n            },\n            {\n                \"id\": \"628252xxxxx@s.whatsapp.net\",\n                \"admin\": null\n            }\n        ]\n    }\n}"
+							"body": "{\n    \"success\": true,\n    \"message\": \"The group has been successfully created.\",\n    \"data\": {\n        \"id\": \"12036302xxxxxxxx@g.us\",\n        \"subject\": \"My Firt Group\",\n        \"subjectOwner\": \"972544xxxxx@s.whatsapp.net\",\n        \"subjectTime\": 1667962920,\n        \"size\": null,\n        \"creation\": 1667962920,\n        \"owner\": \"972544xxxxx@s.whatsapp.net\",\n        \"restrict\": false,\n        \"announce\": false,\n        \"participants\": [\n            {\n                \"id\": \"972544xxxxx@s.whatsapp.net\",\n                \"admin\": \"superadmin\"\n            },\n            {\n                \"id\": \"628252xxxxx@s.whatsapp.net\",\n                \"admin\": null\n            }\n        ]\n    }\n}"
 						},
 						{
 							"name": "Response Failed",
@@ -6201,7 +6201,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"groupName\": \"My Firt Group\", \r\n    \"participants\": [\r\n        \"628231xxxxx\",\r\n        \"628252xxxxx\"\r\n    ]\r\n\r\n}",
+									"raw": "{\r\n    \"groupName\": \"My Firt Group\", \r\n    \"participants\": [\r\n        \"972544xxxxx\",\r\n        \"628252xxxxx\"\r\n    ]\r\n\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6278,7 +6278,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"action\": \"promote\", \r\n    \"participants\": [\r\n        \"628231xxxxx\"\r\n    ]\r\n\r\n}",
+							"raw": "{\r\n    \"action\": \"promote\", \r\n    \"participants\": [\r\n        \"972544xxxxx\"\r\n    ]\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -6319,7 +6319,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"action\": \"demote\", \r\n    \"participants\": [\r\n        \"628231xxxxx\"\r\n    ]\r\n\r\n}",
+									"raw": "{\r\n    \"action\": \"demote\", \r\n    \"participants\": [\r\n        \"972544xxxxx\"\r\n    ]\r\n\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6394,7 +6394,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"action\": \"demote\", \r\n    \"participants\": [\r\n        \"628231xxxxx\"\r\n    ]\r\n\r\n}",
+									"raw": "{\r\n    \"action\": \"demote\", \r\n    \"participants\": [\r\n        \"972544xxxxx\"\r\n    ]\r\n\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -9157,7 +9157,7 @@
 		},
 		{
 			"key": "receiver",
-			"value": "628231xxxxx",
+			"value": "972544xxxxx",
 			"type": "string"
 		},
 		{
