@@ -16,10 +16,10 @@ const status = (req, res) => {
     response(res, 200, true, '', { status: state })
 }
 
-const add = (req, res) => {
+const add = async (req, res) => {
     const { id, typeAuth, phoneNumber } = req.body
 
-    if (isSessionExists(id)) {
+    if (await isSessionExists(id)) {
         return response(res, 409, false, 'Session already exists, please use another id.')
     }
 

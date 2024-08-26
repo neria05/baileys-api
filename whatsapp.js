@@ -75,8 +75,9 @@ const webhook = async (instance, type, data) => {
     }
 }
 
+// בדיקת קיום סשן ב-MongoDB
 const isSessionExists = async (sessionId) => {
-    const session = await Session.findOne({ sessionId })
+    const session = await Session.findOne({ sessionId }).exec()
     return session !== null
 }
 
