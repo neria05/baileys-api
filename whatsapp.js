@@ -74,6 +74,12 @@ const webhook = async (instance, type, data) => {
             })
     }
 }
+
+const isSessionExists = async (sessionId) => {
+    const session = await Session.findOne({ sessionId })
+    return session !== null
+}
+
 const isSessionConnected = (sessionId) => {
     const session = getSession(sessionId)
     return session ? session.ws?.socket?.readyState === 1 : false
