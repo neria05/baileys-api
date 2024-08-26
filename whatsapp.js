@@ -74,6 +74,10 @@ const webhook = async (instance, type, data) => {
             })
     }
 }
+const isSessionConnected = (sessionId) => {
+    const session = getSession(sessionId)
+    return session ? session.ws?.socket?.readyState === 1 : false
+}
 
 const createSession = async (sessionId, res = null, options = { usePairingCode: false, phoneNumber: '' }) => {
     // בדיקת קיום סשן במסד נתונים
