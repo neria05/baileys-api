@@ -7,15 +7,7 @@
     "scripts": {
         "start": "node ."
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ookamiiixd/baileys-api.git"
-    },
-    "author": "ookamiiixd <ookamiiixd@gmail.com>",
-    "bugs": {
-        "url": "https://github.com/ookamiiixd/baileys-api/issues"
-    },
-    "homepage": "https://github.com/ookamiiixd/baileys-api#readme",
+    "homepage": "https://github.com/neria05/baileys-api#readme",
     "engines": {
         "node": ">=18.16.0"
     },
@@ -29,7 +21,8 @@
         "node-cache": "^5.1.2",
         "node-cleanup": "^2.1.2",
         "pino": "^9.3.2",
-        "qrcode": "^1.5.4"
+        "qrcode": "^1.5.4",
+        "mongoose": "^8.5.4"
     },
     "devDependencies": {
         "eslint": "^9.9.0",

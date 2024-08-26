@@ -4,6 +4,7 @@ import nodeCleanup from 'node-cleanup'
 import routes from './routes.js'
 import { init, cleanup } from './whatsapp.js'
 import cors from 'cors'
+import connectDB from './db.js'  // ייבוא פונקציית החיבור למסד הנתונים
 
 const app = express()
 
@@ -14,6 +15,9 @@ app.use(cors())
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use('/', routes)
+
+// התחברות למסד הנתונים לפני התחלת פעילות השרת
+connectDB()
 
 const listenerCallback = () => {
     init()

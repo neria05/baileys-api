@@ -21,6 +21,7 @@ import response from './response.js'
 import { downloadImage } from './utils/download.js'
 import axios from 'axios'
 import NodeCache from 'node-cache'
+import Session from './models/Session.js' // ייבוא מודל הסשנים
 
 const msgRetryCounterCache = new NodeCache()
 
@@ -29,16 +30,9 @@ const retries = new Map()
 
 const APP_WEBHOOK_ALLOWED_EVENTS = process.env.APP_WEBHOOK_ALLOWED_EVENTS.split(',')
 
-const sessionsDir = (sessionId = '') => {
-    return join(__dirname, 'sessions', sessionId ? sessionId : '')
-}
-
-const isSessionExists = (sessionId) => {
-    return sessions.has(sessionId)
-}
-
-const isSessionConnected = (sessionId) => {
-    return sessions.get(sessionId)?.ws?.socket?.readyState === 1
+// שמירת הסשן למסד נתונים
+const persistSession = async (sessionId, data) => {
+    await Session.updateOne({ sessionId }, { data }, { upsert: true })
 }
 
 const shouldReconnect = (sessionId) => {
@@ -82,6 +76,14 @@ const webhook = async (instance, type, data) => {
 }
 
 const createSession = async (sessionId, res = null, options = { usePairingCode: false, phoneNumber: '' }) => {
+    // בדיקת קיום סשן במסד נתונים
+    const session = await Session.findOne({ sessionId })
+
+    if (session) {
+        sessions.set(sessionId, { ...session.data })
+        return
+    }
+
     const sessionFile = 'md_' + sessionId
 
     const logger = pino({ level: 'silent' })
@@ -103,9 +105,6 @@ const createSession = async (sessionId, res = null, options = { usePairingCode: 
         }
     }, 10000)
 
-    /**
-     * @type {import('@whiskeysockets/baileys').AnyWASocket}
-     */
     const wa = makeWASocket.default({
         version,
         printQRInTerminal: false,
@@ -138,7 +137,10 @@ const createSession = async (sessionId, res = null, options = { usePairingCode: 
         }
     }
 
-    wa.ev.on('creds.update', saveCreds)
+    wa.ev.on('creds.update', async () => {
+        await saveCreds()
+        await persistSession(sessionId, wa.authState)  // שמור למסד הנתונים
+    })
 
     wa.ev.on('chats.set', ({ chats }) => {
         callWebhook(sessionId, 'CHATS_SET', chats)
@@ -295,7 +297,7 @@ const createSession = async (sessionId, res = null, options = { usePairingCode: 
                     response(res, 500, false, 'Unable to create session.')
                 }
 
-                return deleteSession(sessionId)
+                return await deleteSession(sessionId)
             }
 
             setTimeout(
@@ -325,7 +327,7 @@ const createSession = async (sessionId, res = null, options = { usePairingCode: 
                 await wa.logout()
             } catch {
             } finally {
-                deleteSession(sessionId)
+                await deleteSession(sessionId)
             }
         }
     })
@@ -377,9 +379,6 @@ const createSession = async (sessionId, res = null, options = { usePairingCode: 
     }
 }
 
-/**
- * @returns {(import('@whiskeysockets/baileys').AnyWASocket|null)}
- */
 const getSession = (sessionId) => {
     return sessions.get(sessionId) ?? null
 }
@@ -388,14 +387,8 @@ const getListSessions = () => {
     return [...sessions.keys()]
 }
 
-const deleteSession = (sessionId) => {
-    const sessionFile = 'md_' + sessionId
-    const storeFile = `${sessionId}_store.json`
-    const rmOptions = { force: true, recursive: true }
-
-    rmSync(sessionsDir(sessionFile), rmOptions)
-    rmSync(sessionsDir(storeFile), rmOptions)
-
+const deleteSession = async (sessionId) => {
+    await Session.deleteOne({ sessionId })
     sessions.delete(sessionId)
     retries.delete(sessionId)
 }
@@ -408,9 +401,6 @@ const getChatList = (sessionId, isGroup = false) => {
     })
 }
 
-/**
- * @param {import('@whiskeysockets/baileys').AnyWASocket} session
- */
 const isExists = async (session, jid, isGroup = false) => {
     try {
         let result
@@ -429,26 +419,20 @@ const isExists = async (session, jid, isGroup = false) => {
     }
 }
 
-/**
- * @param {import('@whiskeysockets/baileys').AnyWASocket} session
- */
 const sendMessage = async (session, receiver, message, delayMs = 1000) => {
     try {
         await delay(parseInt(delayMs))
         return await session.sendMessage(receiver, message)
     } catch {
-        return Promise.reject(null) // eslint-disable-line prefer-promise-reject-errors
+        return Promise.reject(null)
     }
 }
 
-/**
- * @param {import('@whiskeysockets/baileys').AnyWASocket} session
- */
 const updateProfileStatus = async (session, status) => {
     try {
         return await session.updateProfileStatus(status)
     } catch {
-        return Promise.reject(null) // eslint-disable-line prefer-promise-reject-errors
+        return Promise.reject(null)
     }
 }
 
@@ -456,7 +440,7 @@ const updateProfileName = async (session, name) => {
     try {
         return await session.updateProfileName(name)
     } catch {
-        return Promise.reject(null) // eslint-disable-line prefer-promise-reject-errors
+        return Promise.reject(null)
     }
 }
 
@@ -464,7 +448,7 @@ const getProfilePicture = async (session, jid, type = 'image') => {
     try {
         return await session.profilePictureUrl(jid, type)
     } catch {
-        return Promise.reject(null) // eslint-disable-line prefer-promise-reject-errors
+        return Promise.reject(null)
     }
 }
 
@@ -472,7 +456,7 @@ const blockAndUnblockUser = async (session, jid, block) => {
     try {
         return await session.updateBlockStatus(jid, block)
     } catch {
-        return Promise.reject(null) // eslint-disable-line prefer-promise-reject-errors
+        return Promise.reject(null)
     }
 }
 
