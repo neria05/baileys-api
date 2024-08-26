@@ -590,24 +590,17 @@ const convertToBase64 = (arrayBytes) => {
     return Buffer.from(byteArray).toString('base64')
 }
 
-const init = () => {
-    readdir(sessionsDir(), (err, files) => {
-        if (err) {
-            throw err
-        }
-
-        for (const file of files) {
-            if ((!file.startsWith('md_') && !file.startsWith('legacy_')) || file.endsWith('_store')) {
-                continue
-            }
-
-            const filename = file.replace('.json', '')
-            const sessionId = filename.substring(3)
-            console.log('Recovering session: ' + sessionId)
-            createSession(sessionId)
-        }
-    })
-}
+const init = async () => {
+    try {
+      const sessionsFromDB = await Session.find({}) // הביא את כל הסשנים ממסד הנתונים
+      sessionsFromDB.forEach(session => {
+        console.log('Recovering session: ' + session.sessionId)
+        createSession(session.sessionId)
+      })
+    } catch (err) {
+      console.error('Failed to initialize sessions:', err)
+    }
+  }
 
 export {
     isSessionExists,
