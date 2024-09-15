@@ -2,6 +2,7 @@ import 'dotenv/config'
 import express from 'express'
 import nodeCleanup from 'node-cleanup'
 import routes from './routes.js'
+import adminRoutes from './routes/adminRoutes.js' // ייבוא הנתיב החדש
 import { init, cleanup } from './whatsapp.js'
 import cors from 'cors'
 
@@ -14,6 +15,7 @@ app.use(cors())
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use('/', routes)
+app.use('/', adminRoutes) // הוספת הנתיב החדש
 
 const listenerCallback = () => {
     init()
