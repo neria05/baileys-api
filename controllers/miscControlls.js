@@ -63,7 +63,7 @@ const getProfilePictureUser = async (req, res) => {
         const jid = isGroup ? formatGroup(req.body.jid) : formatPhone(req.body.jid)
 
         const imagen = await getProfilePicture(session, jid, 'image')
-        console.log(imagen)
+
         response(res, 200, true, 'The image has been obtained successfully.', imagen)
     } catch (err) {
         if (err === null) {
